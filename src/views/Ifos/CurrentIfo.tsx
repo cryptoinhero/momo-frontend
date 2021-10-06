@@ -52,10 +52,10 @@ const Ifo = () => {
             <li>{TranslateString(598, 'Get MOMO-BNB LP tokens by adding MOMO and BNB liquidity')}</li>
           </List>
           <Flex mb="16px">
-            <LinkExternal href="http://exchang.momoprotocol.finance/#/swap" mr="16px">
+            <LinkExternal href="http://exchange.momoprotocol.finance/#/swap" mr="16px">
               {TranslateString(999, 'Buy BNB')}
             </LinkExternal>
-            {/* <LinkExternal href="http://exchang.momoprotocol.finance/#/add/ETH/0xafb2997fe9a99022e61c7e01b974e0e3d7704b02">
+            {/* <LinkExternal href="http://exchange.momoprotocol.finance/#/add/ETH/0xafb2997fe9a99022e61c7e01b974e0e3d7704b02">
               {TranslateString(999, 'Get LP tokens')}
             </LinkExternal> */}
           </Flex>

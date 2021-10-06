@@ -67,6 +67,40 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 4,
+    risk: 5,
+    isTokenOnly: true,
+    lpSymbol: 'SLIME',
+    lpAddresses: {
+      97: '',
+      56: '0x47df23816542d22Cc08e56df11b77353592210C6', // SLIME-BUSD LP
+    },
+    tokenSymbol: 'SLIME',
+    tokenAddresses: {
+      97: '',
+      56: '0x23b06097f8fe2dd9d3df094d3ee8319daa8756c1',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 5,
+    risk: 5,
+    isTokenOnly: true,
+    lpSymbol: 'SALT',
+    lpAddresses: {
+      97: '',
+      56: '0x85758fDd74541D61657A0b120EF40b60a6b0A49a', // SALT-BUSD LP
+    },
+    tokenSymbol: 'SALT',
+    tokenAddresses: {
+      97: '',
+      56: '0x2849b1ae7e04a3d9bc288673a92477cf63f28af4',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
 ]
 
 export default farms

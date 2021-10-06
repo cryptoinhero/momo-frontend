@@ -54,9 +54,9 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         <Text>{TranslateString(316, 'Stake')}:</Text>
         <StyledLinkExternal href={
           isTokenOnly ?
-            `http://exchang.momoprotocol.finance/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            `http://exchange.momoprotocol.finance/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
-          `http://exchang.momoprotocol.finance/#/add/${liquidityUrlPathParts}`
+          `http://exchange.momoprotocol.finance/#/add/${liquidityUrlPathParts}`
         }>
           {lpLabel}
         </StyledLinkExternal>
