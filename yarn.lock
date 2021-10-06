@@ -1830,7 +1830,7 @@
 
 "@pancakeswap-libs/uikit@cryptoinhero/momoprotocol-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/cryptoinhero/momoprotocol-uikit/tar.gz/65900bf66b79236ea87acab9ca86b7416abb167b"
+  resolved "https://codeload.github.com/cryptoinhero/momoprotocol-uikit/tar.gz/ed798071e5e2b1e552123b71de6ac49ad9d6192c"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
