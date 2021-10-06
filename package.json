@@ -1,11 +1,11 @@
 {
-  "name": "goose-frontend",
-  "version": "0.1.0",
+  "name": "momofinance-frontend",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI=false GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
